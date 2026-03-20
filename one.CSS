@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Carnivalee";
+  src: url("fonts/CarnivaleeFreakshow.ttf") format("truetype");
+}
+html {
+    background: #352611;
+}
+h1 {
+  font-family: "Carnivalee", cursive;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 10px;
+}
+h2{
+    font-family: "Carnivalee", cursive;
+    font-size: 45px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: radial-gradient(circle, #3a2e18 10%, #352611 70%);
+    color: #f5ead7;
+    padding-top: 20px;
+    font-family:"Carnivalee", cursive;
+}
+.background{
+   min-height: 100vh;
+    width: 100%;
+}
+.tv{
+    width: 40%;
+    margin: 0 auto;
+    background: #524f4fcd;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 40px;
+}
+.tvscreen{
+    width: 100%;
+    aspect-ratio: 0.75/0.5;
+    background: #0a0a0f;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    overflow: hidden;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.nw1,.f1,.cw1{
+    width: 100%;
+    border-radius: 10px;
+    display:flex;
+    cursor: pointer;
+    overflow-x: scroll;
+    scrollbar-width: none;;
+}
+.movie-card{
+    width: 200px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 8px;
+}
+.heart-btn{
+    margin-top: 0;
+    background: transparent;
+    font-size: 34px;
+    border: none;
+    padding: 5px;
+    align-self: center;
+    color: #e1140d99;
+    cursor: pointer;
+
+}
+h3{
+    font-size: 27px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+.poster-case {
+    background: #2a1f0e;
+    border-radius: 15px;
+    padding: 8px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.poster-case img {
+    width: 100%;
+    border-radius: 10px;
+}
+#tv-screen {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.progress-bar {
+    width: 100%;
+    background: #3a3020;
+    border-radius: 5px;
+    height: 6px;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 100%;
+    background: #e8b84b;
+    border-radius: 5px;
+}
